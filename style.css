@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    border: 0%;
+    background-color: darkgray;
+}
+.main{
+    border: 1px solid black;
+    border: none;
+    height: 1300px;
+    display: grid;
+    grid-template-areas:
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5"
+    "box6"
+    "box7"
+     ;
+}
+.head{
+    text-align: center;
+}
+/* .box{
+    border: 1px solid black;
+} */
+
+.box1{
+    grid-area: box1;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "box11 box12";
+}
+.box11{
+    background-color: orange;
+    grid-area: box11;
+    padding: 20PX;
+    border: 1px solid black;
+    border: none;
+    text-align: center;
+}
+.box12{
+    background-color: rgb(93, 93, 241);
+    grid-area: box12;
+    border: 1px solid black;
+    border: none;
+    padding: 20px;
+    text-align: center;
+}
+.box2{
+    background: rgb(240, 81, 108);
+    margin: 15px;
+    grid-area: box2;
+}
+.box21{
+    background: rgb(240, 81, 108);
+}
+
+.box3{
+    background-color: rgb(93, 93, 241);
+    margin: 15px;
+    padding: 10px;
+    grid-area: box3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "box31 box32"
+    ;
+}
+.box31{
+    padding: 20px;
+    background-color: rgb(93, 93, 241);
+    grid-area: box31;
+    
+    
+}
+.box32{
+    padding: 20px;
+    background-color: rgb(93, 93, 241);
+    grid-area: box32;  
+}
+.box4{
+    margin: 15px;
+    grid-area: box4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "box41 box42";
+}
+.box41{
+    border: 1px solid black;
+    background: rgb(240, 81, 108);
+    border: none;
+}
+.box42{
+    background-color: orange;
+    border: 1px solid black;
+    border: none;
+}
+.box5{
+    margin: 15px;
+    background-color: rgb(93, 93, 241);
+    grid-area: box5;
+}
+.box6{
+    margin: 15px;
+    background-color: orange;
+    grid-area: box6;
+}
+.box7{
+    margin: 15px;
+    grid-area: box7;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "box71 box72";
+}
+.box71{
+    grid-area: box71;
+    background-color: rgb(93, 93, 241);
+}
+.box72{
+    background: rgb(240, 81, 108);
+    grid-area: box72;
+}
